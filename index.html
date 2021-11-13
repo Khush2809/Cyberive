@@ -7,108 +7,128 @@
     <link rel="stylesheet" href="./LandingPage.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Cyberive Form</title>
   </head>
   <body>
-    <div>
-      <div class="container">
-        <div>
-          <h1>Cybervie Training Enrolment Form</h1>
-        </div>
-        <div class="inputs">
-          <div class="input-name">First Name</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Last Name</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Phone No</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Email</div>
-          <div><input type="email" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Educational Background</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Work Experience</div>
-          <div class="radio-buttons">
-            <div>
-              <input
-                type="radio"
-                id="fresher"
-                name="work_experience"
-                value="Fresher"
-              />
-                <label for="fresher">Fresher</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="experienced"
-                name="work_experience"
-                value="Experienced"
-              />
-                <label for="experienced">Experienced</label>
-            </div>
+    <nav>
+      <img
+        src="https://learn.cybervie.com/assets/img/logo.gif"
+        alt="logo_cyberive"
+      />
+    </nav>
+    <div class="form">
+      <div class="form-container">
+        <div><h1>Cybervie Training Enrolment Form</h1></div>
+        <div class="container">
+          <div class="inputs">
+            <div class="input-name">First Name</div>
+            <div><input type="text" class="inputField" /></div>
           </div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Work Experience Details</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Expectations after Completion of Course</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">Why Cybervie?</div>
-          <div><input type="text" class="inputField" /></div>
-        </div>
-        <div class="inputs">
-          <div class="input-name">How did you know about Cybervie?</div>
-          <div style="display: flex; flex-direction: column">
-            <div class="radio-buttons">
+          <div class="inputs">
+            <div class="input-name">Last Name</div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Phone No</div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Email</div>
+            <div><input type="email" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Educational Background</div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Work Experience</div>
+            <div class="radio-buttons1">
               <div>
                 <input
                   type="radio"
-                  id="referral"
-                  name="about_cyberive"
+                  id="fresher"
+                  name="work_experience"
                   value="Fresher"
                 />
-                  <label for="referral">Referral</label>
+                  <label for="fresher">Fresher</label>
               </div>
               <div>
                 <input
                   type="radio"
-                  id="web"
-                  name="about_cyberive"
+                  id="experienced"
+                  name="work_experience"
                   value="Experienced"
                 />
-                  <label for="web">Web</label>
+                  <label for="experienced">Experienced</label>
+              </div>
+            </div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Work Experience Details</div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">
+              Expectations after Completion of Course
+            </div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">Why Cybervie?</div>
+            <div><input type="text" class="inputField" /></div>
+          </div>
+          <div class="inputs">
+            <div class="input-name">How did you know about Cybervie?</div>
+            <div style="display: flex; flex-direction: column">
+              <div class="radio-buttons2">
+                <div>
+                  <input
+                    type="radio"
+                    id="referral"
+                    name="about_cyberive"
+                    value="Fresher"
+                  />
+                    <label for="referral">Referral</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="web"
+                    name="about_cyberive"
+                    value="Experienced"
+                  />
+                    <label for="web">Web</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="others"
+                    name="about_cyberive"
+                    value="Experienced"
+                  />
+                    <label for="others">Others</label>
+                </div>
               </div>
               <div>
-                <input
-                  type="radio"
-                  id="others"
-                  name="about_cyberive"
-                  value="Experienced"
-                />
-                  <label for="others">Others</label>
+                <input type="text" class="inputField" />
               </div>
             </div>
-            <div>
-              <input type="text" class="inputField" />
-            </div>
+          </div>
+          <div class="buttons">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
           </div>
         </div>
       </div>
