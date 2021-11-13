@@ -1,0 +1,44 @@
+.container {
+  width: 75%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+.inputs {
+  margin-top: 3%;
+}
+.input-name {
+  width: 20%;
+}
+.inputField {
+  width: 50vw;
+  padding: 12px 20px;
+  margin: -7px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+}
+.radio-buttons {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.form {
+  background-color: #edebe6;
+}
+@media only screen and (max-width: 600px) {
+  .inputs {
+    flex-direction: column;
+  }
+}
