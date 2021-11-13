@@ -28,6 +28,12 @@ body {
   background-color: #edebe6;
   margin: 0;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+}
 .inputs {
   display: flex;
   flex-direction: row !important;
@@ -38,7 +44,6 @@ body {
 .radio-buttons1 {
   display: flex;
   flex-direction: column;
-  margin-left: 3vw;
 }
 .radio-buttons2 {
   display: flex;
@@ -57,7 +62,7 @@ h1 {
   /* flex-direction: column; */
 }
 .submit-btn {
-  background-color: #008cba; /* Green */
+  background-color: #008cba;
   border: none;
   border-radius: 5px;
   color: white;
@@ -70,7 +75,7 @@ h1 {
   cursor: pointer;
 }
 .reset-btn {
-  background-color: #e7e7e7; /* Green */
+  background-color: #e7e7e7;
   border: none;
   border-radius: 5px;
   color: black;
@@ -91,14 +96,75 @@ h1 {
   flex-direction: column;
 }
 img {
-  height: 7%;
+  height: 100%;
   width: 14%;
 }
-nav {
-  background-color: white;
+
+.menu {
+  display: none;
+}
+.menu-box {
+  display: none;
 }
 @media only screen and (max-width: 600px) {
+  /* nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+  } */
+  img {
+    align-items: center;
+    margin-left: -100px;
+    height: 80%;
+    width: 40%;
+    margin: 10px;
+  }
+  .form-container {
+    width: 90%;
+  }
   .inputs {
-    flex-direction: column;
+    flex-direction: column !important;
+  }
+  .input-name {
+    margin-top: 15px;
+    width: 90%;
+  }
+  .inputField {
+    margin-top: 10px;
+    width: 90%;
+  }
+  .radio-buttons1 {
+    margin-top: 3px;
+    margin-left: 3%;
+  }
+  .radio-buttons2 {
+    margin-top: 3px;
+  }
+  .menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .menu-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5%;
+    width: 50px;
+    height: 40px;
+  }
+  .buttons {
+    margin: 10px;
+  }
+  .submit-btn {
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+  }
+  .reset-btn {
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
   }
 }
