@@ -19,9 +19,10 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-.form {
+body {
   display: flex;
   justify-content: center;
+  background-color: #edebe6;
 }
 .inputs {
   display: flex;
@@ -34,9 +35,7 @@
 h1 {
   font-family: "Josefin Sans", sans-serif;
 }
-.form {
-  background-color: #edebe6;
-}
+
 @media only screen and (max-width: 600px) {
   .inputs {
     flex-direction: column;
